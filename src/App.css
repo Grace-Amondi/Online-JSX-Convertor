@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header{
+    display: block;
+    background-color: pink;
+    color: red;
+    font-size: 20px;
+    height:5vh;
+    overflow: auto;
+    padding-top:10px; 
+}
+
+.container{
+    height: 95vh;
+    display: flex;
+}
+
+pre{
+    background-color: #f8f8f8;
+}
+
+pre, textarea{
+    width:50%;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    color:#222;
+
+}
+
+.pre{
+    background-color: rgb(26, 240, 240);
+}
+textarea:focus{
+    outline: 0
+}
